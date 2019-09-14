@@ -4,7 +4,10 @@ import discord
 import asyncio
 import time
 
-token = "Enter Your token here"
+token = "Enter Your token here"     # Read readme to understand how to get your token
+if token == "Enter Your token here":
+    token = input("Please enter your token here: ")
+    
 client = discord.Client()
 
 def delete_server(token, id):
