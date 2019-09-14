@@ -4,10 +4,16 @@ import discord
 import asyncio
 import time
 
-token = "Enter Your token here"     # Read readme to understand how to get your token
-if token == "Enter Your token here":
-    token = input("Please enter your token here: ")
-    
+token = "Enter your token here"
+if token == "Enter your token here":
+    token = input("Please enter your token here (If you don't know how to get it please read readme.txt): ")
+
+if token.startswith('"'):
+    token = token[1:-1]
+    print(token)
+
+
+
 client = discord.Client()
 
 def delete_server(token, id):
@@ -32,5 +38,7 @@ def on_ready():
         if s.name == "All hail Anarchy!":
             delete_server(token, s.id)
             time.sleep(1)
+    print("All Anarchy server deleted, you can close this now...")
+
 
 client.run(token, bot=False)
