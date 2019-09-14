@@ -1,3 +1,6 @@
+If you don't have python installed you can simply execute the exe
+
+
 How to get your token:
   The first 6 steps are also shown in this youtube video: https://www.youtube.com/watch?v=NWB3fGafJwk
     1. Go to official discord page (https://discordapp.com/login)
