@@ -10,3 +10,8 @@ How to get your token:
   8. Now A key named "token" will appear
   9. Copy it's value
   10. That's it! You now have your Token!
+
+
+Please do never share your token with anyone, it's like email+password in one!
+
+When you have "All hail Anarchy!" servers on your account, first of all please change your password!
