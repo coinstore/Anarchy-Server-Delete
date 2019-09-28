@@ -37,7 +37,7 @@ def on_ready():
     for s in client.servers:
         if s.name == "All hail Anarchy!":
             delete_server(token, s.id)
-            time.sleep(1)
+            time.sleep(0.4)
     print("All Anarchy server deleted, you can close this now...")
 
 
