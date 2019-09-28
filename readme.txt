@@ -1,4 +1,4 @@
-If you don't have python installed you can simply execute the exe (If smartscreen opens you have to click on "more details" and then "execute"
+If you don't have python installed you can simply execute the exe (If smartscreen opens you have to click on "more details" and then "execute")
 
 
 How to get your token:
